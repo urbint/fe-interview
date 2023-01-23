@@ -19,7 +19,7 @@ const Counter = ({ initialValue = 0 }: CounterProps) => {
         <button className={styles.button} type="button" onClick={increase}>
           +1
         </button>
-        <button className={styles.button} type="button" onClick={decrease}>
+        <button className={styles.button} type="button" onClick={increase}>
           -1
         </button>
       </div>
