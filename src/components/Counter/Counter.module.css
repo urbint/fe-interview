@@ -12,3 +12,7 @@
 .buttonsWrapper {
   margin: 8px;
 }
+
+.resetButton {
+  text-transform: uppercase;
+}
