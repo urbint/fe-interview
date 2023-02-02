@@ -20,7 +20,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "server": "json-server src/db.js -p 3001",
+    "server": "json-server src/db.js -p 3001 --no-cors",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
