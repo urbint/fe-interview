@@ -7,6 +7,8 @@ module.exports = () => {
     data.users.push({
       id: faker.datatype.uuid(),
       username: faker.internet.userName(),
+      email: faker.internet.email(),
+      fullName: faker.name.fullName(),
     });
   }
   return data;
